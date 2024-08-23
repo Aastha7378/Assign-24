@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Booking</title>
+    <style>
+         body{
+            background-image: url("img/train.jpg");
+            position: relative;
+            bottom: 50px;
+        }
+       
+        .card{
+            background-color:#e6f5ff;
+            height: 600px;
+            width: 520px;
+            position: fixed;
+            right: 50px;
+            bottom: 30px;
+        }
+        .heading{
+            color: black;
+            font-size: 90px;
+            position: absolute;
+            padding: 40px;
+            margin-top: 1px;
+        }
+       
+        .subheading{
+            font-size: 30px;
+            color: black;
+            position: relative;
+            left: 240px;
+            
+        }
+        .btn{
+            background-color: #005c99;
+            width: 258px;
+            padding: 7px;
+            border: 1px solid black;
+            color: white;
+            font-size: 15px;
+        }
+        .booking{
+            text-align: center;
+            font-size: 30px;
+            color: #005c99;
+        }
+        .from{
+            width: 200px;
+            margin-left: 20px;
+            padding: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 class="heading">INDIAN RAILWAYS</h1><br/> <br/><br/><br/><br/><br/>
+    <h3 class="subheading">Safety | Security | Panctuality</h3>
+
+    <div class="card">
+        <button class="btn"><b>PNR STATUS</b></button>
+        <button class="btn"><b>CHARTS/VACANCY</b></button>
+        <h3 class="booking">BOOK TICKET</h3>
+
+        <form>
+            <label for="input your location"> </label>
+            <input type="text" list="Cities-list" Placeholder="From" required/ class="from"> &nbsp; &nbsp;
+        </form>
+
+    </div>
+    
+    
+</body>
+</html>
