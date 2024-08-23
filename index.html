@@ -51,9 +51,80 @@
             width: 200px;
             margin-left: 20px;
             padding: 10px;
+            margin-bottom: 20px;
         }
         .date{
             padding: 10px;
+        }
+        .to{
+            width: 200px;
+            margin-left: 20px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .classes{
+            padding: 10px;
+            margin-left: 20px;
+            width: 200px;
+        }
+        .general{
+            width: 200px;
+            margin-left: 20px;
+            padding: 10px;
+        }
+        .checkbox1{
+            width: 20px;
+            height: 20px;
+            margin-left: 20px;
+            margin-top: 10px;
+      
+        }
+        .para1{
+            position: relative;
+            left: 50px;
+            bottom: 40px;   
+        }
+        .checkbox2{
+            width: 20px;
+            height: 20px;
+            margin-left: 20px;
+            position: relative;
+            bottom: 40px;
+      
+        }
+        .para2{
+            position: relative;
+            left: 50px;
+            bottom: 80px;
+            
+        }
+        .checkbox3{
+            width: 20px;
+            height: 20px;
+            margin-left: 20px;
+            position: relative;
+            bottom: 80px;
+      
+        }
+        .para3{
+            position: relative;
+            left: 50px;
+            bottom: 120px;
+            
+        }
+        .checkbox4{
+            width: 20px;
+            height: 20px;
+            margin-left: 20px;
+            position: relative;
+            bottom: 120px;
+      
+        }
+        .para4{
+            position: relative;
+            left: 50px;
+            bottom: 160px;
+            
         }
     </style>
     
@@ -92,8 +163,66 @@
         <label for="input date"> DD/MM/YYYY: </label>
         <input type="date" id="input date" Placeholder="23/08/2024" required class="date"> <br/> <br/>
 
+        <label for="input your Destination">  </label>
+        <input type="text" list="Cities" Placeholder="To" required class="to"> &nbsp; &nbsp;
+        <datalist id="Cities"> 
+            <option>Pune</option>
+            <option>Nagpur</option>
+            <option>Mumbai</option>
+            <option>chandrapur</option>
+            <option>Raigad</option>
+            <option>Hydrabad</option>
+            <option>Delhi</option>
+            <option>Gujrat</option>
+            <option>Surat</option>
+            <option>Aurangabad</option>
+            <option>Rajsthan</option>
+            <option>Nashik</option>
+            <option>Hinganghat</option>
+            <option>Warora</option>
+            <option>Satara</option>
+            <option>Gadchiroli</option>
+    </datalist>
+
+    <label for="all classes">  </label>
+        <input type="text" list="Classes" Placeholder="All Classes" required class="classes"> <br/> <br/>
+        <datalist id="Classes"> 
+            <option>Anubhuti Class (EA)/option>
+            <option>AC First Class (1A)</option>
+            <option>Vistadome AC (EV)</option>
+            <option>Exec. Chair Car (EC)</option>
+            <option>AC 2 Tier (2A)</option>
+            <option>First Class (FC)</option>
+            <option>AC 3 Tier (3A)</option>
+            <option>AC 3 Economy (3E)</option>
+            <option>Vistadome Chair Car (VC)</option>
+            <option>AC Chair Car (CC)</option>
+            <option>Sleeper (SL)</option>
+            <option>Vistadome Non AC (VS)</option>
+            <option>Second Sitting (2S)</option>
+            
+    </datalist>
+
+    <label for="general">  </label>
+        <input type="text" list="General" Placeholder="General" required class="general">  <br/> <br/>
+        <datalist id="general"> 
+            <option>LADIES</option>
+            <option>LOWER BIRTH/SR.CITIZEN</option>
+            <option>PERSON WITH DISABILITY</option>
+            <option>DUTY PASS</option>
+            <option>TATKAL</option>
+            <option>PREMIUM TATKAL</option>
+            
+    </datalist>
+
+    <input type="checkbox" class="checkbox1">  <p class="para1">Person With Disability Concession </p>
+    <input type="checkbox" class="checkbox2">  <p class="para2">Train With Available Berth</p>
+    <input type="checkbox" class="checkbox3">  <p class="para3">Railway Pass Concession</p>
+    <input type="checkbox" class="checkbox4">  <p class="para4">Flexible With Date</p> <br/>
     
         </form>
+
+        <button>Search</button>
 
     </div>
     
