@@ -52,6 +52,9 @@
             margin-left: 20px;
             padding: 10px;
         }
+        .date{
+            padding: 10px;
+        }
     </style>
     
 </head>
@@ -66,7 +69,30 @@
 
         <form>
             <label for="input your location"> </label>
-            <input type="text" list="Cities-list" Placeholder="From" required/ class="from"> &nbsp; &nbsp;
+            <input type="text" list="Cities-list" Placeholder="From" required class="from"> &nbsp; &nbsp;
+            <datalist id="Cities-list"> 
+                <option>Pune</option>
+                <option>Nagpur</option>
+                <option>Mumbai</option>
+                <option>chandrapur</option>
+                <option>Raigad</option>
+                <option>Hydrabad</option>
+                <option>Delhi</option>
+                <option>Gujrat</option>
+                <option>Surat</option>
+                <option>Aurangabad</option>
+                <option>Rajsthan</option>
+                <option>Nashik</option>
+                <option>Hinganghat</option>
+                <option>Warora</option>
+                <option>Satara</option>
+                <option>Gadchiroli</option>
+        </datalist>
+
+        <label for="input date"> DD/MM/YYYY: </label>
+        <input type="date" id="input date" Placeholder="23/08/2024" required class="date"> <br/> <br/>
+
+    
         </form>
 
     </div>
